@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@+id/tema">
+
+    <fragment
+        android:id="@+id/tema"
+        android:name="com.example.bottomnavigationbar.TemaFragment"
+        android:label="fragment_tema"
+        tools:layout="@layout/fragment_tema" />
+    <fragment
+        android:id="@+id/resumo"
+        android:name="com.example.bottomnavigationbar.ResumoFragment"
+        android:label="fragment_resumo"
+        tools:layout="@layout/fragment_resumo" />
+    <fragment
+        android:id="@+id/integrantes"
+        android:name="com.example.bottomnavigationbar.IntegrantesFragment"
+        android:label="fragment_integrantes"
+        tools:layout="@layout/fragment_integrantes" />
+    <fragment
+        android:id="@+id/notas"
+        android:name="com.example.bottomnavigationbar.NotasFragment"
+        android:label="fragment_notas"
+        tools:layout="@layout/fragment_notas" />
+</navigation>
